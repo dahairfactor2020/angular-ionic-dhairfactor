@@ -1,0 +1,7 @@
+{
+  "name": "angular-ionic-dhairfactor",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
