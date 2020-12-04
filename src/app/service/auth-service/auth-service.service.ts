@@ -5,5 +5,10 @@ import { Injectable } from '@angular/core';
 })
 export class AuthServiceService {
 
+  public backEndPermitted = false;
   constructor() { }
+
+  backEndPermission() {
+    this.backEndPermitted = true;
+  }
 }
